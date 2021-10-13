@@ -4,7 +4,7 @@
 2. Run: `composer install`
 3. Run: `composer update`
 4. Run: `composer du`
-5. Create Database and enter database name, and database server credentials in .env file
+5. Create a database and enter database name, and server credentials in .env file
 6. Run: `php artisan migrate`
 7. Run: `php artisan db:seed --class=RoleSeeder`
 8. Run: `php artisan db:seed --class=UserSeeder`
