@@ -62,3 +62,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### To Run the Project
+
+1. Clone the Repository
+2. Run: `composer install`
+3. Run: `composer update`
+4. Run: `composer du`
+5. Create Database and enter database name, and database server credentials in .env file
+6. Run: `php artisan migrate`
+7. Run: `php artisan db:seed --class=RoleSeeder`
+8. Run: `php artisan db:seed --class=UserSeeder`
+9. Run: `php artisan serve`
+
+
+5. 
